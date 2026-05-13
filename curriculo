@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thaylane Paulo | Links</title>
+  <title>Thaylane Paulo | Currículo Profissional</title>
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
 
     body {
@@ -18,26 +18,26 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
       overflow: hidden;
     }
 
-    .card {
+    .container {
       width: 90%;
       max-width: 420px;
-      padding: 35px;
-      border-radius: 28px;
-      text-align: center;
-      background: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.12);
       backdrop-filter: blur(12px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      border-radius: 28px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
       animation: fadeIn 1s ease;
     }
 
     @keyframes fadeIn {
       from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(25px);
       }
       to {
         opacity: 1;
@@ -50,70 +50,68 @@
       height: 140px;
       border-radius: 50%;
       object-fit: cover;
-      border: 5px solid white;
+      border: 5px solid #fff;
       margin-bottom: 20px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.25);
     }
 
     h1 {
+      color: white;
       font-size: 2rem;
-      color: #ffffff;
       margin-bottom: 10px;
     }
 
-    p {
-      color: #fff;
-      margin-bottom: 28px;
+    .subtitle {
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 30px;
       font-size: 1rem;
-      opacity: 0.9;
     }
 
     .links {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 18px;
     }
 
     .btn {
       text-decoration: none;
-      padding: 15px;
-      border-radius: 16px;
       background: white;
-      color: #d63384;
-      font-weight: bold;
+      color: #2575fc;
+      padding: 15px;
+      border-radius: 18px;
       font-size: 1rem;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(255,255,255,0.3);
+      font-weight: 600;
+      transition: 0.3s ease;
+      box-shadow: 0 5px 15px rgba(255,255,255,0.25);
     }
 
     .btn:hover {
-      transform: scale(1.05);
-      background: #d63384;
+      transform: translateY(-4px) scale(1.02);
+      background: #2575fc;
       color: white;
     }
 
     .footer {
-      margin-top: 25px;
-      color: white;
+      margin-top: 30px;
+      color: rgba(255,255,255,0.75);
       font-size: 0.85rem;
-      opacity: 0.8;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="card">
+  <div class="container">
 
     <img
       class="profile-img"
-      src="https://share.icloud.com/photos/001kpissrC1h0knsRTHdrnrWQ"
+      src="https://media.licdn.com/dms/image/v2/D4D03AQG6tdunhZzQYg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731696338068?e=2147483647&v=beta&t=qlrO6a2M2Zwt4v_qbjCsy_7RqvrqpJKuqnYMqvJ_Pjk"
       alt="Foto de Thaylane Paulo"
     />
 
     <h1>Thaylane Paulo</h1>
 
-    <p>
+    <p class="subtitle">
       Currículo Profissional • Portfólio • Redes Sociais
     </p>
 
@@ -121,15 +119,15 @@
 
       <a
         class="btn"
-        href="https://pin.it/6nasS6X6b"
+        href="https://github.com/thay-paulo"
         target="_blank"
       >
-        Pinterest
+        GitHub
       </a>
 
       <a
         class="btn"
-        href="https://www.linkedin.com/in/thaylane-pauo-do-nascimento-9a0b1525a?"
+        href="https://www.linkedin.com/in/thaylane-paulo-do-nascimento/?skipRedirect=true"
         target="_blank"
       >
         LinkedIn
